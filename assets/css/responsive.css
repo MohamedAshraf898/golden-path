@@ -1,0 +1,2334 @@
+
+@media only screen and (max-width: 5000px){
+.boxed_wrapper_box_page{
+    overflow-x: hidden;
+}
+      
+
+}
+
+
+/* Large Layout: 1200px. */
+@media only screen and (min-width: 1200px){
+
+
+    
+    
+ 
+    
+}
+
+
+
+/* Medium screen  */ 
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+    
+/*** Header Style One Css ***/     
+.header-upper-right {
+    padding-right: 60px;
+}    
+.header-contact-info ul li {
+    margin-right: 10px;
+}    
+.header-contact-info ul li .icon {
+    width: 70px;
+}    
+.main-menu.style1 .navigation>li {
+    margin-right: 25px;
+}  
+.header-lawer-right .button {
+    display: none;
+}  
+.header-lawer-right {
+    padding-right: 100px;
+}    
+    
+/*** About Style1 Area Css ***/
+.about-style1-area {
+    padding: 100px 0 100px;
+}    
+.about-style1-area .shape {
+    display: none;
+} 
+.about-style1-image-box {
+    padding-right: 70px;
+    max-width: 700px;
+}    
+.about-style1-text-box {
+    padding-top: 190px;
+    margin-right: 0;
+    padding-right: 100px;
+}    
+    
+/*** Fact Counter Area Css ***/    
+.single-fact-counter {
+    margin-right: 250px;
+}    
+.fact-counter-area .wheel img {
+    opacity: .2;
+}   
+    
+/*** Latest Project Style1 Area Css ***/     
+.project-tabs .tab-buttons .tab-btn {
+    margin-right: 20px;
+}    
+    
+/*** Appoint Area Css ***/        
+.car-image-box img {
+    max-width: 100%;
+    float: none;
+}  
+.appoint-box {
+    padding-top: 40px;
+} 
+
+/*** Partner Area Css ***/         
+.partner-box:after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    height: auto;
+}    
+    
+/*** Footer Area Css ***/        
+.single-footer-widget.marbtm50 {
+    margin-bottom: 50px;
+}  
+.single-footer-widget.pdright {
+    padding-right: 100px;
+} 
+.single-footer-widget.marginleft {
+    margin-left: 0;
+}    
+.single-footer-widget.margin-minus {
+    margin-right: 0px;
+    margin-left: 0px;
+}    
+ 
+    
+  
+    
+    
+/*** Main Slider Style2 Css ***/        
+.main-slider-style2 .layer-outer .left-box {
+    width: 45%;
+}
+.header-style2 .bottom {
+    padding: 0 20px;
+}    
+.main-slider-style2 .layer-outer .right-box {
+    width: 55%;
+}    
+  
+.slider-box-style2 {
+    top: 300px;
+    left: 100px;
+    bottom: 0;
+    right: 0;
+} 
+.slider-box-style2 .owl-theme .owl-nav {
+    right: 70px;
+    width: 200px;
+    bottom: -25px;
+}    
+
+/*** Mainmenu Area Css ***/    
+.mainmenu-area .outer-box {
+    max-width: 770px;
+}
+.mainmenu-area .outer-box .bottom .left .main-menu .navigation>li {
+    margin-right: 20px;
+}   
+.mainmenu-area .outer-box .bottom .right .button a {
+    padding: 0 25px;
+}    
+ 
+/*** About Style2 Area Css ***/        
+.about-style2-right-box {
+    padding-top: 50px;
+} 
+ 
+/*** Work Process Area Css ***/        
+.work-process-area .border-box2 {
+    max-width: 910px;
+}    
+    
+/*** Slogan Area Css ***/         
+.slogan-area .outer-container {
+    max-width: 910px;
+}    
+    
+/*** Faq Content Area Css ***/
+.faq-image-box{
+    margin: 0;
+}    
+.faq-image-box img {
+    max-width: 100%;
+    float: none;
+}      
+.faq-content-box {
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-bottom: 160px;
+    padding-right: 0px;
+}
+.faq-content-box:before {
+    left: -5000px;
+    right: -50000px;
+} 
+    
+.faq-content-box.style2 {
+    margin-top: 0px;
+    margin-left: 0;
+    padding-top: 60px;
+    padding-left: 0;
+    padding-bottom: 100px;
+}    
+
+    
+    
+    
+    
+/*** Header Style Two Css ***/ 
+.header-contact-info-style2 ul {
+    text-align: center;
+}    
+.header-contact-info-style2 ul li {
+    float: none;
+    border-left: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 0 30px;
+    margin: 0 -2px;
+}  
+.header-contact-info-style2 ul li:last-child{
+    border-right: 1px solid #dddddd;
+} 
+.header-social-links {
+    float: none;
+    text-align: center;
+} 
+.header-social-links ul li {
+    display: inline-block;
+    float: none;
+    border-left: 1px solid #dddddd;
+    margin: 0 -2px;
+}
+.header-social-links ul li:last-child {
+    border-right: 1px solid #dddddd;
+}    
+    
+.header-lawer-style2 .outer-box {
+    background: transparent;
+    padding-left: 250px;
+}  
+.header-lawer-style2 .outer-box .logo {
+    top: 0;
+    left: 0px;
+    padding: 15px 0;
+}   
+.main-menu.style3 .navigation>li {
+    margin-right: 20px;
+} 
+.main-menu.style3 .navigation>li>a {
+    color: #ffffff;
+}    
+.main-menu.style3 .navigation>li:hover>a, 
+.main-menu.style3 .navigation>li.current>a {
+    color: #222222;
+}   
+.cart-box.style3 {
+    display: none;
+}   
+.outer-search-box-style1.style3 .seach-toggle {
+    width: 80px;
+}      
+.header-lawer-right-style2 .button {
+    display: none;
+}    
+    
+/*** Call To Action Area Css ***/     
+.call-to-action-area .inner-content {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+} 
+.call-to-action-area .inner-content .single-box {
+    width: 80%;
+    margin: 0 auto;
+}   
+.call-to-action-area .inner-content .single-box.middle {
+    width: 90%;
+} 
+.call-back-box {
+    padding: 70px 50px 70px;
+}    
+.call-back-box:before {
+    top: 0px;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+}    
+.call-back-form .button-box {
+    padding-top: 10px;
+}    
+
+/*** About Style3 Area Css ***/
+.about-style3-area {
+    padding: 100px 0 0px;
+}
+.about-style3-area .shape {
+    top: auto;
+    left: 0;
+    bottom: 0;
+}    
+.about-style3-image-box{
+    padding-top: 50px;
+}    
+.about-style3-image-box img {
+    max-width: 100%;
+    float: none;
+}    
+    
+/*** Fact Counter Style2 Area Css ***/    
+.single-fact-counter-style2 {
+    max-width: 240px;
+    margin: 0 auto 40px;
+}        
+     
+/*** Services Style2 Area Css ***/       
+.service-style2-right-content {
+    padding-top: 150px;
+    padding-left: 0;
+    padding-right: 0px;
+}    
+    
+    
+    
+   
+    
+/*** Call To Action Area Style2 Css ***/      
+.engine-image {
+    left: -250px;
+    bottom: -60px;
+}    
+.engine-image img {
+    margin-left: 0;
+}    
+    
+/*** About Style4 Area Css ***/ 
+.about-style4-content {
+    position: relative;
+    display: block;
+}  
+.about-style4-content:before {
+    top: 0px;
+    left: 0px;
+    bottom: -95px;
+    right: 0;
+}
+.about-style4-content:after {
+    top: 0px;
+    left: 0px;
+    bottom: -95px;
+    right: 0;
+}    
+.about-style4-content .img-box {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 40px;
+}    
+.about-style4-content .img-box img{
+    width: 100%;
+}    
+.about-style4-content .text-box {
+    max-width: 100%;
+    width: 100%;
+    padding: 140px 50px 0px;
+}    
+.about-style4-content .text-box .icon {
+    bottom: -80px;
+    right: 30px;
+}    
+    
+/*** Featured Area Css ***/     
+.qualified-professional-content {
+    margin-left: 0px;
+    padding: 80px 30px 80px;
+}    
+.video-holder-box-style4 .title h2 br{
+    display: none;
+}    
+ 
+/*** Slogan Area Style2 Css ***/       
+.slogan-area.style2 .slogan-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 53px 0px 60px;
+}    
+.slogan-area.style2 .slogan-content .title h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 0 22px;
+}    
+    
+    
+    
+/*** RTL Page Css ***/        
+.rtl .header-lawer-style2 .outer-box {
+    padding-right: 250px;
+}    
+.rtl .header-lawer-style2 .outer-box .logo {
+    right: 0;
+}    
+.rtl .main-menu .navigation>li:last-child {
+    margin-right: 20px;
+}        
+.rtl .header-contact-info-style2 ul li {
+    float: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin: 0;
+    padding: 0 15px;
+}    
+.rtl .header-social-links {
+    float: none;
+}    
+.rtl .header-social-links ul li {
+    float: none;
+    border-left: 0px solid #dddddd;
+    margin: 0 0px;
+}    
+.rtl .header-social-links ul li:last-child {
+    border-right: 0px solid #dddddd;
+}    
+.rtl .header-upper-right-style2 {
+    border-top: 1px solid #dddddd;
+}    
+    
+.rtl .about-style3-tab-box .tabs-content .inner-content .button {
+    padding-left: 0px;
+    padding-right: 10px;
+}    
+.rtl .about-style3-image-box img {
+    float: none;
+    width: 100%;
+}  
+    
+.rtl .single-fact-counter-style2 {
+    overflow: hidden;
+    padding-right: 10px;
+}    
+    
+.rtl .single-footer-widget.pdright {
+    padding-right: 0;
+}    
+.rtl .single-footer-widget .gallery li {
+    float: right;
+}    
+    
+.rtl .call-back-box .bottom-icon {
+    left: 20px;
+    right: auto;
+    bottom: 15px;
+}    
+    
+    
+    
+/*** Service Single Area Css ***/       
+.working-topics-content-box .text-holder {
+    padding-top: 40px;
+}    
+ 
+/*** Latest Project Style2 Area Css ***/        
+.single-project-style2 .overlay-content .box h3 {
+    font-size: 20px;
+}    
+ 
+/*** Faq Page Css ***/          
+.question-form {
+    padding-top: 50px;
+}    
+    
+/*** Blog Single Area Css ***/ 
+.blog-single-prev-next-button .title-box h3 br {
+    display: none;
+}    
+.comment-box {
+    width: 100%;
+}    
+       
+/*** Contact Form Area Css ***/       
+.contact-form form .button-box {
+    padding-left: 0px;
+    padding-bottom: 30px;
+}    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+/*** About Style1 Area Css ***/
+.about-style1-area {
+    padding: 100px 0 100px;
+}    
+.about-style1-area .shape {
+    display: none;
+} 
+.about-style1-image-box {
+    padding-right: 70px;
+    max-width: 700px;
+}    
+.about-style1-text-box {
+    padding-top: 190px;
+    margin-right: 0;
+    padding-right: 0px;
+}    
+    
+/*** Fact Counter Area Css ***/      
+.fact-counter-area .wheel img {
+    opacity: .1;
+}       
+        
+/*** Latest Project Style1 Area Css ***/
+.latest-project-style1-area .bg-color {
+    left: 80%;
+    width: 50000px;
+}    
+.project-tabs .tab-buttons {
+    width: 300px;
+}    
+.project-tabs .tab-buttons .tab-btn {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.single-project-style1-content {
+    padding-right: 170px;
+}    
+.project-slider {
+    margin-top: 40px;
+}        
+
+/*** Appoint Area Css ***/        
+.car-image-box img {
+    max-width: 100%;
+    float: none;
+}  
+.appoint-box {
+    padding-top: 40px;
+}    
+        
+/*** Testimonial Style1 Area Css ***/ 
+.testimonial-outer-box {
+    max-width: 470px;
+}    
+.testimonial-carousel .owl-nav {
+    right: -290px;
+    bottom: -62px;
+}
+    
+/*** Partner Area Css ***/         
+.partner-box:after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    height: auto;
+}       
+   
+/*** Footer Area Css ***/        
+.single-footer-widget.marbtm50 {
+    margin-bottom: 50px;
+}  
+.single-footer-widget.pdright {
+    padding-right: 0px;
+} 
+.single-footer-widget.marginleft {
+    margin-left: 0;
+}    
+.single-footer-widget.margin-minus {
+    margin-right: 0px;
+    margin-left: 0px;
+}    
+        
+/*** About Style2 Area Css ***/        
+.about-style2-right-box {
+    padding-top: 50px;
+}    
+        
+/*** Work Process Area Css ***/        
+.work-process-area .border-box2 {
+    max-width: 650px;
+}    
+    
+/*** Slogan Area Css ***/         
+.slogan-area .outer-container {
+    max-width: 650px;
+}    
+.slogan-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 60px;
+    text-align: center;
+}    
+.slogan-content .title {
+    padding-bottom: 12px;
+}        
+    
+/*** Faq Content Area Css ***/
+.faq-image-box{
+    margin: 0;
+}    
+.faq-image-box img {
+    max-width: 100%;
+    float: none;
+}      
+.faq-content-box {
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-bottom: 160px;
+    padding-right: 0px;
+}
+.faq-content-box:before {
+    left: -5000px;
+    right: -50000px;
+}
+    
+.faq-content-box.style2 {
+    margin-top: 0px;
+    margin-left: 0;
+    padding-top: 60px;
+    padding-left: 0;
+    padding-bottom: 100px;
+}    
+    
+    
+/*** Call To Action Area Css ***/     
+.call-to-action-area .inner-content {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+} 
+.call-to-action-area .inner-content .single-box {
+    width: 80%;
+    margin: 0 auto;
+}   
+.call-to-action-area .inner-content .single-box.middle {
+    width: 90%;
+} 
+.call-back-box {
+    padding: 70px 50px 70px;
+}    
+.call-back-box:before {
+    top: 0px;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+}    
+.call-back-form .button-box {
+    padding-top: 10px;
+}    
+       
+/*** About Style3 Area Css ***/
+.about-style3-area {
+    padding: 100px 0 0px;
+}
+.about-style3-area .shape {
+    top: auto;
+    left: 0;
+    bottom: 0;
+}    
+.about-style3-image-box{
+    padding-top: 50px;
+}    
+.about-style3-image-box img {
+    max-width: 100%;
+    float: none;
+}    
+    
+/*** Fact Counter Style2 Area Css ***/    
+.single-fact-counter-style2 {
+    max-width: 240px;
+    margin: 0 auto 40px;
+}        
+     
+/*** Services Style2 Area Css ***/       
+.service-style2-right-content {
+    padding-top: 150px;
+    padding-left: 0;
+    padding-right: 0px;
+}        
+    
+/*** Subscribe Area Css ***/ 
+.subscribe-area {
+    padding: 88px 0 100px;
+} 
+.subscribe-title h2 {
+    margin: 0 0 11px;
+}    
+.subscribe-area .subscribe-box {
+    margin: 32px 0 0;
+    margin-left: 13px;
+}
+       
+    
+    
+    
+    
+/*** Call To Action Area Style2 Css ***/      
+.call-to-action-area.style2 {
+    margin-top: 0px;
+}
+.call-to-action-area.style2 .inner-content {
+    max-width: 390px;
+    float: left;
+}  
+.call-back-box.style2:after {
+    top: 0;
+    left: 0;
+    bottom: -70px;
+    right: 0;
+}    
+.engine-image {
+    left: auto;
+    bottom: auto;
+    right: 0;
+    text-align: right;
+    top: 60px;
+}    
+.engine-image img {
+    margin-left: 0px;
+}    
+    
+/*** About Style4 Area Css ***/ 
+.about-style4-content {
+    position: relative;
+    display: block;
+}  
+.about-style4-content:before {
+    top: 0px;
+    left: 0px;
+    bottom: -95px;
+    right: 0;
+}
+.about-style4-content:after {
+    top: 0px;
+    left: 0px;
+    bottom: -95px;
+    right: 0;
+}    
+.about-style4-content .img-box {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 40px;
+}    
+.about-style4-content .img-box img{
+    width: 100%;
+}    
+.about-style4-content .text-box {
+    max-width: 100%;
+    width: 100%;
+    padding: 140px 50px 0px;
+}    
+.about-style4-content .text-box .icon {
+    bottom: -80px;
+    right: 30px;
+}    
+        
+/*** Featured Area Css ***/ 
+.featured-area {
+    padding: 100px 0 100px;
+}    
+.featured-area .layer-outer {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}    
+.qualified-professional-content {
+    margin-left: 0px;
+    padding: 80px 50px 80px;
+    max-width: 100%;
+} 
+.qualified-professional-content:after {
+    display: none;
+}  
+.video-holder-box-style4 {
+    padding-top: 46px;
+    padding-left: 0px;
+}    
+.video-holder-box-style4 .title {
+    padding-bottom: 34px;
+}    
+.video-holder-box-style4 .title h2 br{
+    display: none;
+}    
+        
+/*** Slogan Area Style2 Css ***/       
+.slogan-area.style2 .slogan-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 53px 0px 60px;
+}    
+
+        
+
+    
+/*** Rtl Page Css ***/        
+.rtl .about-style3-tab-box .tabs-content .inner-content .button {
+    padding-left: 0px;
+    padding-right: 10px;
+}    
+.rtl .about-style3-image-box img {
+    float: none;
+    width: 100%;
+}
+    
+.single-fact-counter-style2 {
+    overflow: hidden;
+    padding-right: 10px;
+}    
+        
+.rtl .single-footer-widget.pdright {
+    padding-right: 0;
+}    
+.rtl .single-footer-widget .gallery li {
+    float: right;
+}    
+        
+.rtl .call-back-box .bottom-icon {
+    left: 20px;
+    right: auto;
+    bottom: 15px;
+} 
+
+    
+    
+
+    
+/*** About Style2 Area About Page Css ***/       
+.about-style2-area.about-page {
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}    
+    
+/*** Services Style1 Area Service Page Css ***/         
+.single-service-style1 .img-holder .title {
+    right: 50px;
+    padding: 29px 0 29px 15px;
+}    
+    
+/*** Service Single Area Css ***/       
+.working-topics-content-box .text-holder {
+    padding-top: 40px;
+}    
+.service-sidebar {
+    padding-top: 100px;
+}    
+ 
+/*** Team Page Area Area Css ***/         
+.single-team-member .title-holder h3 {
+    font-size: 20px;
+}    
+    
+/*** Faq Page Css ***/          
+.question-form {
+    padding-top: 50px;
+}    
+
+/*** Blog Area Css ***/        
+.sidebar-wrapper {
+    margin-top: 80px;
+}    
+    
+/*** Blog Single Area Css ***/   
+.comment-box {
+    width: 100%;
+}    
+
+/*** Contact Form Area Css ***/       
+.contact-form form .button-box {
+    padding-left: 0px;
+    padding-bottom: 30px;
+}    
+.contact-information-box {
+    padding: 76px 30px 53px;
+    max-width: 370px;
+} 
+.contact-information-box .title-box {
+    padding-bottom: 34px;
+}    
+.contact-information-box .contact-us li .icon {
+    width: 30px;
+}   
+.contact-information-box .follow-us {
+    padding-top: 34px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+ 
+    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+.sec-title h2 br{
+    display: none;
+}    
+    
+    
+.owl-carousel.owl-dot-style1 .owl-dots .owl-dot {
+    margin: 5px 5px 0;
+}     
+    
+/*** About Style1 Area Css ***/
+.about-style1-area {
+    padding: 100px 0 100px;
+}    
+.about-style1-area .shape {
+    display: none;
+} 
+.about-style1-image-box {
+    padding-right: 0px;
+    max-width: 700px;
+} 
+.about-style1-image-box .big-title {
+    display: none;
+}    
+.about-style1-text-box {
+    padding-top: 190px;
+    margin-right: 0;
+    padding-right: 0px;
+}  
+.about-style1-text-box .title h2 br{
+    display: none;
+}    
+.about-style1-image-box .image-box .bottom-box {
+    left: 0;
+    bottom: -40px;
+    right: auto;
+}        
+.about-style1-image-box .image-box .bottom-box .title-box {
+    padding-left: 20px;
+    padding-right: 30px;
+} 
+.about-style1-text-box .inner-contant .text {
+    margin-right: 0px;
+}    
+    
+/*** Fact Counter Area Css ***/      
+.fact-counter-area .wheel {
+    display: none;
+}           
+    
+/*** Services Style1 Area Css ***/   
+.single-service-style1 .img-holder .title {
+    padding-left: 20px;
+}    
+.single-service-style1 .img-holder .title h3 {
+    font-size: 20px;
+}    
+.single-service-style1 .img-holder .overlay-content .inner {
+    padding: 0px 20px 60px;
+}     
+.service-carousel .owl-carousel.owl-dot-style1 .owl-dots .owl-dot {
+    margin: 10px 5px 0;
+} 
+    
+.single-service-style1.style2 .img-holder .overlay-content .inner {
+    padding: 53px 20px 50px;
+}    
+    
+/*** Latest Project Style1 Area Css ***/
+.latest-project-style1-area .bg-color {
+    left: 90%;
+    width: 50000px;
+}    
+.project-tabs .tab-buttons {
+    width: 300px;
+} 
+.project-tabs .tab-button-column {
+    padding-bottom: 25px;
+}    
+.project-tabs .tab-buttons .tab-btn {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.single-project-style1-content {
+    padding-right: 50px;
+} 
+.single-project-style1-content .title h2 {
+    font-size: 30px;
+    padding-left: 20px;
+}    
+    
+.project-slider {
+    margin-top: 40px;
+}        
+.single-project-style1-content .project-social-share {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.project-social-share .social-links {
+    padding-left: 0px;
+}    
+    
+/*** Appoint Area Css ***/        
+.car-image-box img {
+    max-width: 100%;
+    float: none;
+}  
+.appoint-box {
+    padding-top: 40px;
+}    
+            
+/*** Testimonial Style1 Area Css ***/ 
+.testimonial-outer-box {
+    max-width: 470px;
+    padding: 70px 30px 102px;
+} 
+.single-testimonial-style1 .top {
+    padding-left: 0px;
+    min-height: 120px;
+}    
+.single-testimonial-style1 .top .img-box {
+    position: relative;
+} 
+.single-testimonial-style1 .top .client-info {
+    padding-top: 47px;
+} 
+.single-testimonial-style1 .text-box {
+    padding-top: 36px;
+    padding-bottom: 20px;
+}      
+.testimonial-carousel .owl-nav {
+    right: auto;
+    bottom: -102px;
+    left: 0;
+}
+    
+/*** Partner Area Css ***/    
+.partner-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+.partner-box:after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    height: auto;
+}    
+.single-partner-logo-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+}    
+    
+/*** Footer Area Css ***/        
+.single-footer-widget.marbtm50 {
+    margin-bottom: 50px;
+} 
+.single-footer-widget.pdtop50{
+    padding-top: 50px;
+}    
+.single-footer-widget.pdright {
+    padding-right: 0px;
+} 
+.single-footer-widget.marginleft {
+    margin-left: 0;
+}    
+.single-footer-widget.margin-minus {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.single-footer-widget .our-company-info {
+    padding-right: 0px;
+}    
+        
+/*** About Style2 Area Css ***/        
+.about-style2-right-box {
+    padding-top: 50px;
+}    
+.about-style2-right-box ul li {
+    padding: 29px 20px 27px;
+    padding-right: 20px;
+}        
+.about-style2-right-box ul li .inner .text {
+    padding-left: 20px;
+}    
+.about-style2-right-box ul li .inner .text h3 {
+    font-size: 22px;
+}    
+    
+/*** Latest Project Style2 Area Css ***/    
+.single-project-style2 .overlay-content .box ul {
+    padding-bottom: 10px;
+}    
+.single-project-style2 .overlay-content .box {
+    padding: 0 20px 17px;
+}    
+           
+/*** Work Process Area Css ***/        
+.work-process-area .border-box2 {
+    max-width: 300px;
+}    
+    
+/*** Slogan Area Css ***/         
+.slogan-area .outer-container {
+    max-width: 300px;
+}    
+.slogan-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 60px;
+    text-align: center;
+}    
+.slogan-content .title {
+    padding-bottom: 12px;
+}        
+.slogan-content .title h3 {
+    font-size: 18px;
+}    
+      
+/*** Pricing Table Area Css ***/ 
+.single-price-box {
+    padding: 75px 20px 70px;
+}    
+    
+/*** Faq Content Area Css ***/ 
+.faq-image-box {
+    margin-right: 0px;
+}    
+.faq-image-box img {
+    max-width: 100%;
+    float: none;
+}      
+.faq-content-box {
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-bottom: 160px;
+    padding-right: 0px;
+}
+.faq-content-box:before {
+    left: -5000px;
+    right: -50000px;
+}
+    
+.faq-content-box.style2 {
+    margin-top: 0px;
+    margin-left: 0;
+    padding-top: 60px;
+    padding-left: 0;
+    padding-bottom: 100px;
+}    
+    
+        
+/*** Call To Action Area Css ***/     
+.call-to-action-area .inner-content {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+} 
+.call-to-action-area .inner-content .single-box {
+    width: 90%;
+    margin: 0 auto;
+}   
+.call-to-action-area .inner-content .single-box.middle {
+    width: 100%;
+} 
+.shopping-content-box {
+    padding: 52px 20px 60px;
+    padding-right: 20px;
+} 
+.shopping-content-box .button .btn-one {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.shopping-content-box .button .btn-one:before {
+    display: none;
+}    
+.shopping-content-box .button .btn-one .icon {
+    display: none;
+}     
+.call-back-box {
+    padding: 70px 20px 70px;
+}    
+.call-back-box:before {
+    top: 0px;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+}    
+.call-back-form .button-box {
+    padding-top: 10px;
+}    
+       
+/*** About Style3 Area Css ***/
+.about-style3-area {
+    padding: 100px 0 0px;
+}
+.about-style3-area .shape {
+    top: auto;
+    left: 0;
+    bottom: 0;
+}  
+.about-style3-tab-box .tab-buttons .tab-btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}    
+    
+.about-style3-image-box{
+    padding-top: 40px;
+}    
+.about-style3-image-box img {
+    max-width: 100%;
+    float: none;
+}    
+ 
+/*** Fact Counter Style2 Area Css ***/    
+.single-fact-counter-style2 {
+    max-width: 240px;
+    margin: 0 auto 40px;
+}        
+ 
+/*** Services Style2 Area Css ***/ 
+.services-style2-area .shape {
+    display: none;
+}    
+.service-style2-right-content {
+    padding-top: 60px;
+    padding-left: 0;
+    padding-right: 0px;
+}      
+.video-holder-box-style3 .icon {
+    bottom: 30px;
+    right: 30px;
+}    
+.video-holder-box-style3 .pattern-bg {
+    opacity: 0;
+}        
+    
+/*** Testimonial Style2 Area Css ***/
+.testimonial-outer-box-style2 {
+    padding: 70px 30px 70px;
+}    
+.testimonial-carousel-style2.owl-nav-style-one.owl-theme .owl-nav {
+    top: auto;
+    bottom: -46px;
+    left: 120px;
+    right: 120px;
+    width: auto;
+}
+    
+/*** Subscribe Area Css ***/ 
+.subscribe-area {
+    padding: 88px 0 100px;
+} 
+.subscribe-title h2 {
+    margin: 0 0 11px;
+}    
+.subscribe-area .subscribe-box {
+    margin: 32px 0 0;
+    margin-left: 13px;
+}
+.subscribe-area .subscribe-form input[type="email"] {
+    padding: 0 15px;
+    padding-right: 145px;
+    font-size: 14px;
+}    
+.subscribe-area .subscribe-form button {
+    width: 130px;
+    font-size: 14px;
+}    
+    
+    
+    
+    
+    
+/*** Call To Action Area Style2 Css ***/      
+.call-to-action-area.style2 {
+    margin-top: 0px;
+}
+.call-to-action-area.style2 .inner-content {
+    max-width: 390px;
+    float: none;
+    margin: 0 auto;
+}  
+.call-back-box.style2 {
+    padding: 0px 15px 0px;
+}    
+.call-back-box.style2:after {
+    top: 0;
+    left: 0;
+    bottom: -70px;
+    right: 0;
+}    
+.engine-image {
+    display: none;
+}    
+
+/*** About Style4 Area Css ***/
+.about-style4-area .sec-title p br{
+    display: none;
+}      
+.about-style4-content {
+    position: relative;
+    display: block;
+}   
+.about-style4-content:before {
+    top: 0px;
+    left: 0px;
+    bottom: -95px;
+    right: 0;
+}
+.about-style4-content:after {
+    top: 0px;
+    left: 0px;
+    bottom: -95px;
+    right: 0;
+}    
+.about-style4-content .img-box {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 40px;
+}  
+.about-style4-content .img-box:before {
+    height: 250px;
+}    
+.about-style4-content .img-box img{
+    width: 100%;
+}    
+.about-style4-content .text-box {
+    max-width: 100%;
+    width: 100%;
+    padding: 140px 20px 0px;
+}    
+.about-style4-content .text-box .icon {
+    bottom: -80px;
+    right: 30px;
+}    
+        
+/*** Featured Area Css ***/ 
+.featured-area {
+    padding: 100px 0 100px;
+}    
+.featured-area .layer-outer {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}    
+.qualified-professional-content {
+    margin-left: 0px;
+    padding: 80px 30px 80px;
+    max-width: 100%;
+} 
+.qualified-professional-content:after {
+    display: none;
+}  
+.video-holder-box-style4 {
+    padding-top: 46px;
+    padding-left: 0px;
+}    
+.video-holder-box-style4 .title {
+    padding-bottom: 34px;
+}    
+.video-holder-box-style4 .title h2 br{
+    display: none;
+}    
+        
+/*** Latest Project Style3 Area Css ***/ 
+.project-style3-content .see-all-project .inner {
+    padding-top: 10px;
+}    
+.project-style3-content .see-all-project .inner h3 {
+    font-size: 14px;
+}    
+.project-style3-content .see-all-project .button a {
+    width: 100px;
+    height: 70px;
+    font-size: 26px;
+    line-height: 70px;
+}    
+    
+/*** Slogan Area Style2 Css ***/ 
+.slogan-area.style2 .outer-container {
+    max-width: 100%;
+    padding: 0 20px;
+}    
+.slogan-area.style2 .slogan-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 53px 0px 60px;
+}    
+
+
+    
+    
+    
+/*** Rtl Page Css ***/        
+.rtl .about-style3-tab-box .tabs-content .inner-content .button {
+    padding-left: 0px;
+    padding-right: 10px;
+}    
+.rtl .about-style3-image-box img {
+    float: none;
+}        
+    
+.single-fact-counter-style2 {
+    overflow: hidden;
+    padding-right: 10px;
+}    
+
+.rtl .single-footer-widget .gallery li {
+    float: right;
+}        
+    
+.rtl .call-back-box .bottom-icon {
+    left: 20px;
+    right: auto;
+    bottom: 15px;
+}    
+    
+.rtl.subscribe-area .subscribe-form input[type="email"] {
+    padding-right: 170px;
+}    
+    
+    
+    
+/*** About Style2 Area About Page Css ***/       
+.about-style2-area.about-page {
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}    
+    
+/*** Service Single Area Css ***/       
+.working-topics-content-box .text-holder {
+    padding-top: 40px;
+}    
+.service-sidebar {
+    padding-top: 100px;
+}    
+  
+/*** Faq Page Css ***/          
+.question-form {
+    padding-top: 50px;
+}    
+        
+/*** Breadcrumb Area Css ***/  
+.breadcrumb-area {
+    padding: 139px 0 140px;
+}    
+.breadcrumb-area .title h2 {
+    font-size: 40px;
+    line-height: 52px;
+}    
+    
+/*** Blog Area Css ***/        
+.sidebar-wrapper {
+    margin-top: 80px;
+}        
+.styled-pagination li {
+    margin: 0px 2px;
+}    
+.single-sidebar .recent-posts li .title-box h4 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}    
+.single-sidebar .recent-posts li .title-box h4 br{
+    display: none;
+}    
+    
+/*** Blog Single Area Css ***/   
+.comment-box {
+    width: 100%;
+}    
+.tag-social-share-box .tag {
+    float: none;
+} 
+.tag-social-share-box .social-share {
+    float: none;
+    margin-top: 5px;
+} 
+.blog-single-author-box {
+    padding: 30px;
+}    
+.blog-single-author-box .inner {
+    padding-left: 0px;
+}    
+.blog-single-author-box .inner .img-box {
+    position: static;
+}    
+.blog-single-author-box .inner .text-box {
+    padding-left: 0;
+    padding-top: 30px;
+}    
+
+.blog-single-prev-next-button {
+    min-height: auto;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 43px 20px;
+}    
+.blog-single-prev-next-button:before {
+    display: none;
+}    
+.blog-single-prev-next-button .prev {
+    width: 100%;
+    float: none;
+    padding-bottom: 27px;
+}  
+.blog-single-prev-next-button .next {
+    width: 100%;
+    float: none;
+    text-align: left !important;
+}
+.blog-single-prev-next-button .title-box {
+    padding: 0px 0;
+}
+    
+.comment-box .single-comment {
+    padding: 30px;
+}    
+.comment-box .single-comment-box {
+    min-height: auto;
+    padding-left: 0px;
+}
+.comment-box .single-comment-box .img-holder {
+    position: static;
+}    
+.comment-box .single-comment-box .text-holder {
+    padding-left: 0;
+    min-height: auto;
+    padding-top: 23px;
+}    
+.comment-box .single-comment-box.marleft50 {
+    margin-left: 0px;
+} 
+    
+/*** Contact Form Area Css ***/  
+.google-map-area .map-outer .map-canvas {
+    height: 400px;
+}     
+.contact-form form .button-box {
+    padding-left: 0px;
+    padding-bottom: 30px;
+}    
+.contact-information-box {
+    padding: 60px 30px 53px;
+    max-width: 370px;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    -webkit-box-shadow: 0px 3px 10px 2px rgba(0,0,0,0.2); 
+    box-shadow: 0px 3px 10px 2px rgba(0,0,0,0.2);
+}
+.contact-information-box .title-box {
+    padding-bottom: 34px;
+}    
+.contact-information-box .contact-us li .icon {
+    width: 30px;
+}   
+.contact-information-box .follow-us {
+    padding-top: 34px;
+}    
+.google-map-area .outer-container {
+    position: static;
+    width: 100%;
+    height: 100%;
+    margin: 50px 0 20px;
+} 
+.contact-form-area {
+    padding: 80px 0px 70px;
+}    
+    
+.single-fact-counter-style2 .title {
+    margin-left: 10px;
+}    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+    
+/*** Header Style One Css ***/ 
+.header-upper-left {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+    height: 90px;
+    padding: 10px 0;
+    z-index: 10;
+}
+.header-upper-left:before {
+    top: 0;
+    left: -5000px;
+    bottom: 0;
+    right: -20px;
+}    
+.header-upper-right {
+    display: none;
+}    
+ 
+.header-lawer {
+    margin-top: 0;
+} 
+.header-lawer .outer-box:before {
+    display: none;
+}    
+.header-lawer-left {
+    float: none !important;
+}
+.header-lawer-left .nav-outer {
+    display: block;
+    float: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}    
+.header-lawer-right {
+    display: none;
+}
+    
+.nav-outer.style1 .mobile-nav-toggler {
+    padding: 25px 0;
+} 
+.nav-outer .mobile-nav-toggler .inner {
+    background: #222222;
+} 
+    
+    
+    
+    
+/*** Main Slider Style2 Css ***/        
+.main-slider-style2 .layer-outer .left-box {
+    width: 100%;
+}
+.header-style2 .top {
+    padding: 17px 0px 18px;
+    padding-right: 0;
+    text-align: center;
+}    
+.header-style2 .bottom {
+    padding: 0 20px;
+}  
+.cart-box.style2 {
+    display: none;
+} 
+.outer-search-box-style1.style2 {
+    padding-right: 0px;
+}    
+.main-slider-style2 .layer-outer .right-box {
+    display: none;
+}    
+  
+.slider-box-style2 {
+    top: 265px;
+    left: 50px;
+    bottom: 0;
+    right: 0px;
+}
+.slider-box-style2 .content {
+    padding: 42px 30px 0px;
+    padding-right: 30px;
+    max-width: 400px;
+} 
+.slider-box-style2 .content h2 {
+    font-size: 30px;
+    line-height: 42px;
+    margin: 17px 0 31px;
+}
+.slider-box-style2 .content p br{
+    display: none
+}
+.slider-box-style2 .owl-theme .owl-nav {
+    display: none;
+}
+.slider-social-links {
+    width: 65px;
+    margin-top: 100px;
+}    
+    
+
+/*** Mainmenu Area Css ***/ 
+.mainmenu-area {
+    padding-left: 0px;
+}  
+.mainmenu-area .video-holder-box.style2 {
+    position: relative;
+}    
+      
+.mainmenu-area .outer-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    width: auto;
+    padding: 0px 0;
+}
+.mainmenu-area .outer-box .top {
+    display: none;
+} 
+.mainmenu-area .outer-box .bottom {
+    padding-left: 0;
+    background: #ffffff;
+    padding: 35px 25px;
+}    
+.mainmenu-area .outer-box .bottom .right {
+    display: none;
+} 
+
+    
+    
+    
+    
+/*** Header Style Two Css ***/ 
+.header-contact-info-style2 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}  
+.header-contact-info-style2 ul li {
+    float: none;
+    border-left: none;
+    border-bottom: 1px solid #dddddd;
+    padding: 0 30px;
+    margin: 0;
+    line-height: 40px;
+} 
+.header-contact-info-style2 ul li:last-child{
+    border-right: none;
+} 
+.header-social-links {
+    float: none;
+    text-align: center;
+} 
+.header-social-links ul li {
+    display: inline-block;
+    float: none;
+    border-left: 1px solid #dddddd;
+    margin: 0 -2px;
+}
+.header-social-links ul li:last-child {
+    border-right: 1px solid #dddddd;
+}    
+  
+.header-lawer-style2 .outer-box {
+    background: transparent;
+    padding-left: 250px;
+}  
+.header-lawer-style2 .outer-box .logo {
+    top: 0;
+    left: 0px;
+    padding: 15px 0;
+}
+.header-lawer-left-style2 {
+    float: none !important;
+}     
+.header-lawer-left-style2 .nav-outer .mobile-nav-toggler {
+    padding: 30px 0;
+}    
+    
+.cart-box.style3 {
+    display: none;
+}
+.outer-search-box-style1.style3 {
+    display: none;
+}        
+.header-lawer-right-style2 .button {
+    display: none;
+}    
+    
+    
+        
+/*** RTL Page Css ***/        
+.rtl .header-lawer-style2 .outer-box {
+    padding-right: 250px;
+}    
+.rtl .header-lawer-style2 .outer-box .logo {
+    right: 0;
+}    
+.rtl .main-menu .navigation>li:last-child {
+    margin-right: 20px;
+}        
+.rtl .header-contact-info-style2 ul li {
+    float: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin: 0;
+    padding: 0 0px;
+}    
+.rtl .header-social-links {
+    float: none;
+}    
+.rtl .header-social-links ul li {
+    float: none;
+    border-left: 0px solid #dddddd;
+    margin: 0 0px;
+}    
+.rtl .header-social-links ul li:last-child {
+    border-right: 0px solid #dddddd;
+}    
+.rtl .header-upper-right-style2 {
+    border-top: 1px solid #dddddd;
+}    
+
+.rtl .nav-outer .mobile-nav-toggler {
+    float: left;
+}    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+.main-header .main-menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: none;
+}      
+.main-header .nav-outer .main-menu,
+.mainmenu-area .nav-outer .main-menu,
+.sticky-header{
+    display: none !important;
+}
+.nav-outer .mobile-nav-toggler{
+    display: block;
+}
+.mobile-nav-toggler .icon-bar {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    height: 2px;
+    width: 30px;
+    margin: 7px 5px;
+} 
+    
+
+    
+    
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+    
+
+.main-header.header-style-three .main-menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: none;
+}      
+.main-header.header-style-three .nav-outer .main-menu,
+.main-header.header-style-three .sticky-header{
+    display: none !important;
+}
+.header-style-three .nav-outer .mobile-nav-toggler {
+    display: block;
+    padding: 30px 0;
+    padding-right: 60px;
+}
+.header-style-three .nav-outer .mobile-nav-toggler .inner {
+    position: relative;
+    display: block;
+    padding: 3px 5px;
+    background: #222222;
+}    
+.header-style-three .mobile-nav-toggler .icon-bar {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    height: 2px;
+    width: 30px;
+    margin: 7px 5px;
+} 
+    
+.header-lawer-left-style3 {
+    float: none !important;
+}
+.header-lawer-left-style3 .nav-outer {
+    float: none;
+    padding-left: 0;
+}      
+.header-lawer-right-style3 {
+    display: none;
+}
+
+    
+    
+    
+    
+        
+    
+    
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1390px) { 
+ 
+/*** Main Slider Css ***/     
+.main-slider .auto-container {
+    padding: 0px 100px;
+}    
+    
+    
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+
+/*** Main Slider Css ***/      
+.main-slider .auto-container {
+    padding: 0px 100px;
+}
+
+/*** Main Slider Style2 Css ***/ 
+.main-slider.style2 .slide {
+    padding: 150px 0px 230px;
+}      
+    
+  
+    
+    
+    
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+/*** Main Slider Css ***/   
+.main-slider .auto-container {
+    padding: 0px 100px;
+}
+.main-slider.style1 .slide {
+    padding: 150px 0px 150px;
+}
+     
+/*** Main Slider Style2 Css ***/ 
+.main-slider.style2 .slide {
+    padding: 150px 0px 230px;
+}      
+.main-slider.style2.home4 .slide {
+    padding: 326px 0px 250px;
+}
+.main-slider.style2.home4 .content h2 br{
+    display: none;
+}
+    
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 767px) { 
+    
+/*** Main Slider Css ***/ 
+.main-slider .auto-container {
+    padding: 0px 70px;
+}
+.main-slider.style1 .slide {
+    padding: 150px 0px 150px;
+}  
+.main-slider .owl-theme .owl-nav .owl-prev {
+    left: 0px;
+}    
+.main-slider .owl-theme .owl-nav .owl-next {
+    right: 0px;
+}    
+     
+/*** Main Slider Style2 Css ***/ 
+.main-slider.style2 .slide {
+    padding: 150px 0px 230px;
+}    
+.main-slider.style2 .content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.main-slider.style2 .content .text {
+    margin-bottom: 40px;
+}    
+.main-slider.style2 .content .text p br {
+    display: none;
+}    
+
+.main-slider.style2.home4 .slide {
+    padding: 231px 0px 210px;
+}
+.main-slider.style2.home4 .content h2 br{
+    display: none;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+}
+
+@media only screen and (max-width: 499px) {
+    
+/*** Main Slider Css ***/ 
+.main-slider .auto-container {
+    padding: 0px 30px;
+}   
+.main-slider .owl-theme .owl-nav .owl-prev {
+    display: none;
+}    
+.main-slider .owl-theme .owl-nav .owl-next {
+    display: none;
+} 
+.main-slider.style1 .slide {
+    padding: 120px 0px 120px;
+}   
+.main-slider.style1 .content {
+    padding: 57px 30px 0px;
+}    
+.main-slider.style1 .content h2 {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 11px 0 20px;
+}    
+
+   
+/*** Main Slider Style2 Css ***/ 
+.main-slider.style2 .slide {
+    padding: 120px 0px 200px;
+}    
+.main-slider.style2 .content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.main-slider.style2 .content .text {
+    margin-bottom: 40px;
+}    
+.main-slider.style2 .content .text p br {
+    display: none;
+}    
+
+.main-slider.style2.home4 .slide {
+    padding: 231px 0px 210px;
+}
+.main-slider.style2.home4 .content h2 br{
+    display: none;
+}    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1820px) {    
+/*** Fact Counter Area Css ***/    
+.fact-counter-area .wheel img {
+    opacity: .2;
+}
+
+/*** Header Style Two Css ***/ 
+.header-lawer-style2 .outer-box {
+    background: transparent;
+    padding-left: 270px;
+}  
+.header-lawer-style2 .outer-box .logo {
+    top: 0;
+    left: 0px;
+    padding: 15px 0;
+}   
+.main-menu.style3 .navigation>li {
+    margin-right: 25px;
+} 
+.main-menu.style3 .navigation>li>a {
+    color: #ffffff;
+}    
+.main-menu.style3 .navigation>li:hover>a, 
+.main-menu.style3 .navigation>li.current>a {
+    color: #222222;
+}
+.header-lawer-right-style2 .button {
+    display: none;
+} 
+ 
+    
+.rtl .header-lawer-style2 .outer-box {
+    padding-right: 260px;
+}    
+.rtl .header-lawer-style2 .outer-box .logo {
+    right: 0;
+}    
+    
+.header-lawer-right .button a {
+    opacity: 0;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1420px) { 
+ 
+  
+/*** Main Slider Style2 Css ***/      
+.header-style2 .bottom {
+    padding: 0 20px;
+}
+.slider-box-style2 {
+    top: 300px;
+    left: 100px;
+    bottom: 0;
+    right: 0;
+} 
+.slider-box-style2 .owl-theme .owl-nav {
+    right: 70px;
+    width: 200px;
+    bottom: -25px;
+}       
+    
+/*** Mainmenu Area Css ***/    
+.mainmenu-area .outer-box {
+    max-width: 1000px;
+}
+.mainmenu-area .outer-box .bottom .left .main-menu .navigation>li {
+    margin-right: 30px;
+} 
+    
+    
+    
+    
+    
+  
+    
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+/*** Header Style Three Css ***/     
+.header-upper-style3 {
+    display: none;
+}    
+.header-lawer-style3 .outer-box:before {
+    position: absolute;
+    top: 0;
+    left: -5000px;
+    bottom: 0;
+    right: -5000px;
+    background: #ffffff;
+    content: "";
+    transform: none;
+}    
+.header-style-three .nav-outer .mobile-nav-toggler {
+    padding-right: 0px;
+}    
+    
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.order-box-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-box-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}    
+
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) { 
+.order-box-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-box-1 {
+    -ms-flex-order: 1;
+    order: 1;
+} 
+    
+    
+
+}
+
+
+
+
+
+
+
