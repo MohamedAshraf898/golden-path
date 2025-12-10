@@ -214,7 +214,7 @@
 }
 .project-tabs .tab-buttons .tab-btn:hover,
 .project-tabs .tab-buttons .tab-btn.active-btn{
-	color: #fab70c;
+	color: gray;
 }
 .latest-project-style1-area .bg-color {
     background: #fab70c;
