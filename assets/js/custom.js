@@ -44,35 +44,113 @@ if($('.mainmenu-area li.dropdown ul').length){
 
 
 //Mobile Nav Hide Show
-if($('.mobile-menu').length){
-
-    $('.mobile-menu .menu-box').mCustomScrollbar();
-
-    var mobileMenuContent = $('.main-header .nav-outer .main-menu').html();
-    $('.mobile-menu .menu-box .menu-outer').append(mobileMenuContent);
-    $('.sticky-header .main-menu').append(mobileMenuContent);
-    
-    var mobileMenuContent = $('.mainmenu-area .nav-outer .main-menu').html();
-    $('.mobile-menu .menu-box .menu-outer').append(mobileMenuContent);
-    $('.sticky-header .main-menu').append(mobileMenuContent);
-
-    //Dropdown Button
-    $('.mobile-menu li.dropdown .dropdown-btn').on('click', function() {
-        $(this).toggleClass('open');
-        $(this).prev('ul').slideToggle(500);
-    });
-    
-    //Menu Toggle Btn
-    $('.mobile-nav-toggler').on('click', function() {
+function initMobileMenu() {
+    // Menu Toggle Btn - Always attach handler (outside conditional to ensure it works in all cases)
+    $('.mobile-nav-toggler').off('click.mobileMenu').on('click.mobileMenu', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
         $('body').addClass('mobile-menu-visible');
     });
-
     
-    //Menu Toggle Btn
-    $('.mobile-menu .menu-backdrop,.mobile-menu .close-btn').on('click', function() {
-        $('body').removeClass('mobile-menu-visible');
-    });
+    if($('.mobile-menu').length){
+        
+        // Initialize custom scrollbar
+        if($('.mobile-menu .menu-box').length){
+            try {
+                $('.mobile-menu .menu-box').mCustomScrollbar();
+            } catch(e) {
+                console.log('mCustomScrollbar not available');
+            }
+        }
+
+        // Try multiple selectors to find the menu content
+        var mobileMenuContent = null;
+        
+        // First try: main-header .nav-outer .main-menu
+        var mainMenu = $('.main-header .nav-outer .main-menu');
+        if(mainMenu.length){
+            var html = mainMenu.html();
+            if(html && html.trim() !== ''){
+                mobileMenuContent = html;
+            }
+        }
+        
+        // Second try: header-lawer .nav-outer .main-menu (if first didn't work)
+        if(!mobileMenuContent){
+            var headerLawerMenu = $('.header-lawer .nav-outer .main-menu');
+            if(headerLawerMenu.length){
+                var html = headerLawerMenu.html();
+                if(html && html.trim() !== ''){
+                    mobileMenuContent = html;
+                }
+            }
+        }
+        
+        // Third try: mainmenu-area .nav-outer .main-menu (if previous didn't work)
+        if(!mobileMenuContent){
+            var mainmenuAreaMenu = $('.mainmenu-area .nav-outer .main-menu');
+            if(mainmenuAreaMenu.length){
+                var html = mainmenuAreaMenu.html();
+                if(html && html.trim() !== ''){
+                    mobileMenuContent = html;
+                }
+            }
+        }
+        
+        // Fourth try: any .nav-outer .main-menu (last resort)
+        if(!mobileMenuContent){
+            var anyNavMenu = $('.nav-outer .main-menu').first();
+            if(anyNavMenu.length){
+                var html = anyNavMenu.html();
+                if(html && html.trim() !== ''){
+                    mobileMenuContent = html;
+                }
+            }
+        }
+        
+        // Append menu content to mobile menu if found
+        if(mobileMenuContent && mobileMenuContent.trim() !== ''){
+            var menuOuter = $('.mobile-menu .menu-box .menu-outer');
+            if(menuOuter.length){
+                menuOuter.empty().append(mobileMenuContent);
+                
+                // Also update sticky header menu
+                if($('.sticky-header .main-menu').length){
+                    $('.sticky-header .main-menu').empty().append(mobileMenuContent);
+                }
+            }
+        }
+
+        // Function to initialize dropdown buttons
+        function initMobileMenuDropdowns() {
+            $('.mobile-menu li.dropdown .dropdown-btn').off('click').on('click', function() {
+                $(this).toggleClass('open');
+                $(this).prev('ul').slideToggle(500);
+            });
+        }
+        
+        // Initialize dropdown buttons
+        initMobileMenuDropdowns();
+        
+        //Menu Toggle Btn - Close menu - Remove previous handlers and attach new one
+        $('.mobile-menu .menu-backdrop, .mobile-menu .close-btn').off('click.mobileMenu').on('click.mobileMenu', function() {
+            $('body').removeClass('mobile-menu-visible');
+        });
+        
+        // Listen for language changes and re-initialize menu if needed
+        $(window).on('languageChanged', function(e) {
+            // Re-initialize dropdown buttons after language change
+            setTimeout(function() {
+                initMobileMenuDropdowns();
+            }, 100);
+        });
+    }
 }
+
+// Initialize mobile menu when DOM and jQuery are ready
+$(document).ready(function() {
+    initMobileMenu();
+});
 
 
 

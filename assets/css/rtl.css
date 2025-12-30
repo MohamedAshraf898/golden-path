@@ -1,0 +1,1925 @@
+/* RTL (Right-to-Left) Styles for Arabic Language Support */
+
+/* Base RTL Styles */
+.rtl {
+    direction: rtl;
+    font-family: 'Cairo', 'Arimo', sans-serif;
+}
+
+.rtl * {
+    text-align: right;
+}
+.rtl .header-call a{
+    text-align: left;
+}
+.header-upper-left{
+    direction: ltr;
+}
+.rtl .main-slider .owl-theme .owl-nav .owl-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.rtl .main-slider .owl-theme .owl-nav .owl-prev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+/* Override global RTL text-align for sections that should stay LTR */
+.rtl .latest-project-style1-area,
+.rtl .testimonial-style1-area {
+    direction: ltr !important;
+}
+
+/* Arabic Font Family */
+.rtl body,
+.rtl h1,
+.rtl h2,
+.rtl h3,
+.rtl h4,
+.rtl h5,
+.rtl h6 {
+    font-family: 'Cairo', 'Arimo', sans-serif;
+}
+
+/* Header RTL Styles */
+.rtl .header-upper-right {
+    float: left !important;
+}
+
+.rtl .header-upper-left {
+    float: right !important;
+}
+
+.rtl .header-contact-info {
+    float: left !important;
+}
+
+.rtl .header-contact-info ul li {
+    float: right;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.rtl .header-contact-info .title.pdleft10 {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+/* Navigation RTL */
+.rtl .header-lawer-left {
+    float: right !important;
+    position: relative;
+    right: 10rem;
+}
+
+.rtl .navigation {
+    text-align: right;
+    position: relative;
+}
+
+.rtl .navigation>li {
+    float: right;
+    margin-left: 50px;
+    margin-right: 0;
+}
+
+.rtl .navigation>li:first-child {
+    margin-left: 0;
+}
+
+/* Sticky Header RTL */
+.rtl .sticky-header .logo {
+    float: right !important;
+}
+
+.rtl .sticky-header .right-col {
+    float: left !important;
+}
+
+/* Slider RTL */
+.rtl .content.pull-right {
+    text-align: right;
+}
+
+.rtl .main-slider .content {
+    direction: rtl;
+}
+
+/* About Section RTL */
+.rtl .about-style1-text-box {
+    text-align: right;
+}
+
+.rtl .about-style1-text-box .inner-contant ul {
+    text-align: right;
+}
+
+.rtl .about-style1-text-box .inner-contant ul li {
+    text-align: right;
+}
+
+.rtl .about-style1-image-box {
+    float: left;
+}
+
+/* Fact Counter RTL */
+.rtl .single-fact-counter {
+    text-align: center;
+}
+
+/* Services Carousel RTL */
+.rtl .service-carousel {
+    direction: ltr;
+    /* Keep carousel direction as is for proper functionality */
+}
+
+.rtl .single-service-style1 {
+    text-align: right;
+}
+
+/* Projects Tabs RTL - Keep same as English layout */
+.rtl .latest-project-style1-area {
+    direction: ltr !important;
+}
+
+.rtl .project-tabs {
+    direction: ltr;
+}
+
+.rtl .project-tabs .tab-button-column {
+    text-align: left;
+    direction: ltr;
+}
+
+.rtl .project-tabs .tab-buttons {
+    float: left;
+    direction: ltr;
+}
+
+.rtl .project-tabs .tab-buttons li {
+    float: left !important;
+    margin-left: 0 !important;
+    margin-right: 60px !important;
+}
+
+.rtl .project-tabs .tab-buttons li:first-child {
+    margin-left: 0;
+}
+
+.rtl .project-tabs .tab-buttons li:last-child {
+    margin-right: 0 !important;
+}
+
+.rtl .single-project-style1-content {
+    text-align: left;
+    direction: ltr;
+    padding-right: 60px;
+    padding-left: 0;
+}
+
+.rtl .single-project-style1-content .title {
+    text-align: left;
+}
+
+.rtl .single-project-style1-content .title h2 {
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 0;
+}
+
+.rtl .single-project-style1-content .title .counts {
+    left: 0;
+    right: auto;
+}
+
+.rtl .single-project-style1-content .text {
+    text-align: left;
+}
+
+.rtl .single-project-style1-content .button {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.rtl .project-slider {
+    float: none;
+    direction: ltr;
+}
+
+.rtl .project-slider .pattern-bg {
+    left: -70px;
+    right: auto;
+}
+
+.rtl .project-slider .project-carousel {
+    padding-right: 40px;
+    padding-left: 0;
+}
+
+.rtl .project-carousel .owl-dots {
+    right: 0;
+    left: auto;
+}
+
+.rtl .latest-project-style1-area .row {
+    direction: ltr;
+}
+
+.rtl .latest-project-style1-area .row .col-lg-6:first-child {
+    float: left;
+}
+
+.rtl .latest-project-style1-area .row .col-lg-6:last-child {
+    float: right;
+}
+
+.rtl .fact-counter-area .row {
+    position: relative;
+    right: 8rem;
+    text-align: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+}
+
+/* Testimonials RTL - Keep same as English layout */
+.rtl .testimonial-style1-area {
+    direction: ltr !important;
+}
+
+.rtl .testimonial-style1-area .layer-outer {
+    direction: ltr;
+}
+
+.rtl .testimonial-style1-area .left-box {
+    float: left;
+    right: auto;
+    left: 0;
+}
+
+.rtl .testimonial-style1-area .right-box {
+    float: right;
+    left: auto;
+    right: 0;
+}
+
+.rtl .testimonial-quote-icon {
+    left: -200px;
+    right: auto;
+}
+
+.rtl .testimonial-outer-box {
+    direction: ltr;
+    text-align: left;
+}
+
+.rtl .testimonial-outer-box:before {
+    left: 0;
+    right: 0;
+}
+
+.rtl .testimonial-outer-box:after {
+    left: 0;
+    right: 0;
+}
+
+.rtl .testimonial-outer-box .sec-title {
+    text-align: left;
+}
+
+.rtl .testimonial-outer-box .sec-title .border-box.left {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.rtl .single-testimonial-style1 {
+    text-align: left;
+    direction: ltr;
+}
+
+.rtl .single-testimonial-style1 .top {
+    padding-left: 170px;
+    padding-right: 0;
+}
+
+.rtl .single-testimonial-style1 .top .img-box {
+    left: 0;
+    right: auto;
+}
+
+.rtl .single-testimonial-style1 .top .img-box:before {
+    left: 24px;
+    right: auto;
+}
+
+.rtl .testimonial-style1-area .client-info {
+    text-align: left;
+}
+
+.rtl .single-testimonial-style1 .top .client-info p {
+    text-align: left;
+}
+
+.rtl .single-testimonial-style1 .top .client-info h3 {
+    text-align: left;
+}
+
+.rtl .single-testimonial-style1 .text-box {
+    text-align: left;
+}
+
+.rtl .single-testimonial-style1 .text-box p {
+    text-align: left;
+}
+
+.rtl .testimonial-social-links ul li {
+    float: left;
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.rtl .testimonial-social-links ul li:last-child {
+    margin-right: 0;
+}
+
+.rtl .testimonial-carousel {
+    direction: ltr;
+}
+
+.rtl .testimonial-carousel .owl-nav {
+    right: -300px;
+    left: auto;
+    bottom: -60px;
+}
+
+.rtl .testimonial-carousel .owl-nav button.owl-prev {
+    float: left;
+    padding-left: 20px !important;
+    padding-right: 0 !important;
+}
+
+.rtl .testimonial-carousel .owl-nav button.owl-prev:before {
+    left: 0;
+    right: auto;
+    border-right: none;
+    border-left: 1px solid #dddddd;
+}
+
+.rtl .testimonial-carousel .owl-nav button.owl-next {
+    float: right;
+    padding-right: 20px !important;
+    padding-left: 0 !important;
+}
+
+.rtl .testimonial-carousel .owl-nav button.owl-next:before {
+    right: 0;
+    left: auto;
+    border-left: none;
+    border-right: 1px solid #dddddd;
+}
+
+.rtl .testimonial-carousel .owl-nav button span {
+    float: left;
+    padding-right: 8px;
+    padding-left: 0;
+}
+
+.rtl .testimonial-carousel .owl-nav button span.right {
+    float: right;
+    padding-left: 8px;
+    padding-right: 0;
+}
+
+.rtl .testimonial-carousel .owl-nav button p {
+    float: left;
+}
+
+/* Footer RTL */
+.rtl .footer .row>div {
+    text-align: right;
+}
+
+.rtl .single-footer-widget {
+    text-align: right;
+}
+
+.rtl .single-footer-widget .text {
+    text-align: right;
+}
+
+.rtl .footer-social-links {
+    text-align: right;
+}
+
+.rtl .footer-social-links .social-links ul {
+    text-align: right;
+    float: right;
+}
+
+.rtl .services-links {
+    text-align: right;
+}
+
+.rtl .services-links li {
+    text-align: right;
+}
+
+.rtl .services-links li a {
+    text-align: right;
+}
+
+/* Buttons RTL */
+.rtl .btn-one {
+    text-align: center;
+}
+
+.rtl .btns-box {
+    text-align: right;
+}
+
+/* Section Titles RTL */
+.rtl .sec-title {
+    text-align: center;
+}
+
+.rtl .sec-title .border-box.left {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.rtl .sec-title h2 {
+    text-align: center;
+}
+
+/* Owl Carousel RTL Overrides */
+.rtl .owl-carousel {
+    direction: ltr;
+    /* Keep carousel direction for proper functionality */
+}
+
+/* Partner Area RTL */
+.rtl .partner-box {
+    text-align: center;
+}
+
+/* Mobile Menu RTL - Match English Layout */
+.rtl .mobile-menu {
+    right: 0;
+    left: auto;
+    width: 300px;
+    padding-right: 30px;
+}
+
+.rtl .mobile-menu-visible .mobile-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.rtl .mobile-menu .menu-backdrop {
+    right: 0;
+    left: auto;
+    -webkit-transform: translateX(101%);
+    -ms-transform: translateX(101%);
+    transform: translateX(101%);
+}
+
+.rtl .mobile-menu-visible .mobile-menu .menu-backdrop {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+.rtl .mobile-menu .menu-box {
+    left: 0;
+    right: auto;
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    overflow-y: auto !important;
+    overflow-x: visible !important;
+    background: #000000 !important;
+    -webkit-transform: translateX(101%);
+    -ms-transform: translateX(101%);
+    transform: translateX(101%);
+}
+
+/* Ensure all mobile menu content is visible in RTL */
+.rtl .mobile-menu .menu-box > * {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    min-height: auto !important;
+}
+
+/* Ensure menu-outer displays its children */
+.rtl .mobile-menu .menu-box .menu-outer,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .menu-outer {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+.rtl .mobile-menu .menu-box .menu-outer > *,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .menu-outer > * {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.rtl .mobile-menu .menu-box .nav-logo,
+.rtl .mobile-menu .menu-box .menu-outer,
+.rtl .mobile-menu .menu-box .navigation,
+.rtl .mobile-menu .menu-box .mobile-language-switcher,
+.rtl .mobile-menu .menu-box .social-links {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+    z-index: 10 !important;
+    width: 100% !important;
+}
+
+.rtl .mobile-menu-visible .mobile-menu .menu-box .nav-logo,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .menu-outer,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .navigation,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .mobile-language-switcher,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .social-links {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+.rtl .mobile-menu-visible .mobile-menu .menu-box {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform: translateX(0%) !important;
+    -ms-transform: translateX(0%) !important;
+    transform: translateX(0%) !important;
+}
+
+/* Force all content inside visible menu-box to be visible */
+.rtl .mobile-menu-visible .mobile-menu .menu-box,
+.rtl .mobile-menu-visible .mobile-menu .menu-box *,
+.rtl .mobile-menu-visible .mobile-menu .menu-box *::before,
+.rtl .mobile-menu-visible .mobile-menu .menu-box *::after {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Override any potential hiding rules */
+.rtl .mobile-menu-visible .mobile-menu .menu-box .nav-logo *,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .menu-outer *,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .navigation *,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .mobile-language-switcher *,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .social-links * {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Ensure menu-box has proper z-index above backdrop */
+.rtl .mobile-menu-visible .mobile-menu .menu-box {
+    z-index: 10 !important;
+}
+
+/* Ensure all menu content elements are above backdrop */
+.rtl .mobile-menu-visible .mobile-menu .menu-box .nav-logo,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .menu-outer,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .navigation,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .mobile-language-switcher,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .social-links,
+.rtl .mobile-menu-visible .mobile-menu .menu-box .close-btn {
+    z-index: 15 !important;
+    position: relative !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Final override - ensure everything is visible */
+.rtl body.mobile-menu-visible .mobile-menu .menu-box,
+.rtl body.mobile-menu-visible .mobile-menu .menu-box * {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.rtl body.mobile-menu-visible .mobile-menu .menu-box img,
+.rtl body.mobile-menu-visible .mobile-menu .menu-box a,
+.rtl body.mobile-menu-visible .mobile-menu .menu-box button,
+.rtl body.mobile-menu-visible .mobile-menu .menu-box ul,
+.rtl body.mobile-menu-visible .mobile-menu .menu-box li {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.rtl .mobile-menu .close-btn {
+    right: 10px;
+    left: auto;
+}
+
+/* Mobile Language Switcher RTL */
+.rtl .mobile-language-switcher {
+    text-align: right;
+    direction: rtl;
+}
+
+.rtl .mobile-language-switcher .inner-title {
+    text-align: right;
+}
+
+.rtl .mobile-language-switcher .inner-title h5 {
+    text-align: right;
+}
+
+.rtl .mobile-lang-buttons {
+    direction: rtl;
+}
+
+.rtl .mobile-lang-btn {
+    display: block;
+    text-align: center;
+    font-family: 'Cairo', 'Montserrat', sans-serif;
+}
+
+/* Mobile Menu Navigation RTL */
+.rtl .mobile-menu .navigation {
+    direction: rtl;
+    text-align: right;
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+}
+
+.rtl .mobile-menu .navigation > li {
+    text-align: right;
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.rtl .mobile-menu .navigation li>a {
+    text-align: right;
+    padding-right: 25px;
+    padding-left: 50px;
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+}
+
+.rtl .mobile-menu .navigation li>a:before {
+    right: 0;
+    left: auto;
+}
+
+.rtl .mobile-menu .navigation li ul li>a {
+    margin-left: 0;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn {
+    right: auto;
+    left: 6px;
+}
+
+.rtl .mobile-menu .nav-logo {
+    text-align: right;
+    display: block !important;
+}
+
+.rtl .mobile-menu .menu-outer {
+    display: block !important;
+}
+
+.rtl .mobile-menu .mobile-language-switcher {
+    display: block !important;
+}
+
+.rtl .mobile-menu .social-links {
+    display: block !important;
+}
+
+/* General RTL Adjustments */
+.rtl .float-left {
+    float: right !important;
+}
+
+.rtl .float-right {
+    float: left !important;
+}
+
+.rtl .pull-left {
+    float: right !important;
+}
+
+.rtl .pull-right {
+    float: left !important;
+}
+
+.rtl .text-left {
+    text-align: right !important;
+}
+
+.rtl .text-right {
+    text-align: left !important;
+}
+
+.rtl .about-style1-image-box {
+    position: relative;
+    right: -10rem;
+}
+
+/* Padding and Margin RTL */
+.rtl .ml-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+.rtl .mr-auto {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+
+/* Language Switcher RTL */
+.rtl .language-switcher {
+    left: 150px;
+    right: auto;
+}
+
+.rtl .language-switcher.style2 {
+    left: 0;
+    right: auto;
+}
+
+/* Language Switcher Button */
+.language-switcher-btn {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.language-switcher-btn .lang-btn {
+    position: relative;
+    right: 8rem;
+    background: transparent;
+    border: 2px solid #ddd;
+    color: #333;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    min-width: 60px;
+}
+
+.language-switcher-btn .lang-btn:hover {
+    background: #151515;
+    color: #fff;
+    border-color: #151515;
+}
+
+.rtl .language-switcher-btn {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+/* Header Language Switcher Position */
+.header-lawer-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rtl .header-lawer-right {
+    float: left;
+}
+
+/* Clearfix RTL */
+.rtl .clearfix::after {
+    clear: both;
+}
+
+/* Scroll to Top Button RTL */
+.rtl .scroll-top {
+    left: 30px;
+    right: auto;
+}
+
+/* Footer Bottom RTL */
+.rtl .footer-bottom .copyright-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+/* Inner Box RTL */
+.rtl .inner-box {
+    text-align: right;
+}
+
+/* Keep projects inner-box in LTR */
+.rtl .latest-project-style1-area .inner-box {
+    text-align: left;
+    direction: ltr;
+}
+
+.rtl .inner-contant {
+    text-align: right;
+}
+
+/* Contact Info RTL */
+.rtl .header-contact-info ul li .title {
+    text-align: right;
+}
+
+/* Tab buttons RTL */
+.rtl .tab-buttons li {
+    float: right;
+}
+
+.rtl .tab-buttons li:first-child {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Keep project tab buttons in LTR */
+.rtl .project-tabs .tab-buttons .tab-btn {
+    float: left !important;
+    margin-right: 60px !important;
+    margin-left: 0 !important;
+    direction: ltr;
+}
+
+.rtl .project-tabs .tab-buttons .tab-btn:last-child {
+    margin-right: 0 !important;
+}
+
+/* Big Title RTL */
+.rtl .big-title {
+    right: auto;
+    left: 20px;
+}
+
+/* Pattern background adjustments */
+.rtl .pattern-bg {
+    transform: scaleX(-1);
+}
+
+.rtl .patter-bg {
+    transform: scaleX(-1);
+}
+
+/* Shape elements RTL */
+.rtl .shape {
+    left: auto;
+    right: 0;
+}
+.mobile-menu{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 300px;
+	max-width:100%;
+	height: 100%;
+	padding-right:30px;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 999999;
+}
+.mobile-menu .menu-backdrop{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+    background-color: rgba(3, 13, 40, 0.90);
+	-webkit-transform: translateX(101%);
+	-ms-transform: translateX(101%);
+	transform: translateX(101%);
+	transition: all 900ms ease;
+    -moz-transition: all 900ms ease;
+    -webkit-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+	z-index: 1;
+}
+.mobile-menu-visible .mobile-menu .menu-backdrop{
+	opacity: 0.70;
+	visibility: visible;
+	-webkit-transition:all 0.7s ease;
+	-moz-transition:all 0.7s ease;
+	-ms-transition:all 0.7s ease;
+	-o-transition:all 0.7s ease;
+	transition:all 0.7s ease;
+	-webkit-transform: translateX(0%);
+	-ms-transform: translateX(0%);
+	transform: translateX(0%);
+}
+.mobile-menu .mCSB_inside>.mCSB_container{
+	margin-right:5px;	
+}
+.mobile-menu .navbar-collapse{
+	display:block !important;	
+}
+
+
+.mobile-menu .nav-logo{
+	position:relative;
+	padding:30px 25px;
+	text-align:left;	
+}
+.mobile-menu .nav-logo a{
+    position: relative;
+    display: inline-block;
+}
+
+.mobile-menu-visible{
+	overflow: hidden;
+}
+.mobile-menu-visible .mobile-menu{
+	opacity: 1;
+	visibility: visible;
+}
+.mobile-menu .menu-box{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	overflow-y: auto;
+	background: #000000;
+	padding: 0px 0px;
+	z-index: 5;
+	opacity: 0;
+	visibility: hidden;
+	border-radius: 0px;
+	-webkit-transform: translateX(101%);
+	-ms-transform: translateX(101%);
+	transform: translateX(101%);
+}
+.mobile-menu-visible .mobile-menu .menu-box{
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition:all 0.7s ease;
+	-moz-transition:all 0.7s ease;
+	-ms-transition:all 0.7s ease;
+	-o-transition:all 0.7s ease;
+	transition:all 0.7s ease;
+	-webkit-transform: translateX(0%);
+	-ms-transform: translateX(0%);
+	transform: translateX(0%);
+}
+.mobile-menu .close-btn{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 30px;
+	width: 24px;
+	text-align: center;
+	cursor: pointer;
+	z-index: 10;
+	-webkit-transition:all 0.9s ease;
+	-moz-transition:all 0.9s ease;
+	-ms-transition:all 0.9s ease;
+	-o-transition:all 0.9s ease;
+	transition:all 0.9s ease;
+}
+.mobile-menu-visible .mobile-menu .close-btn{
+	-webkit-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+.mobile-menu .close-btn:hover{
+	-webkit-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+
+
+.mobile-menu .navigation{
+	position: relative;
+	display: block;
+	width: 100%;
+	float: none;
+}
+.mobile-menu .navigation li{
+	position: relative;
+	display: block;
+	border-top: 1px solid rgba(255,255,255,0.10);
+}
+.mobile-menu .navigation:last-child{
+	border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+.mobile-menu .navigation li > ul > li:first-child{
+	border-top: 1px solid rgba(255,255,255,0.10);
+}
+.mobile-menu .navigation li > a{
+	position: relative;
+	display: block;
+	padding: 10px 25px;
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;	
+}
+.mobile-menu .navigation li > a:before{
+	content:'';
+	position:absolute;
+	left:0;
+	top:0;
+	height:0;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;	
+}
+.mobile-menu .navigation li.current > a:before{
+	height:100%;
+}
+
+
+
+.mobile-menu .navigation li ul li > a{
+	font-size: 15px;
+    font-weight: 400;
+	margin-left: 20px;
+	text-transform: capitalize;
+}
+
+.mobile-menu .navigation li.dropdown .dropdown-btn{
+	position:absolute;
+	top:6px;
+	right:6px;
+	width:32px;
+	height:32px;
+	text-align:center;
+	color:#ffffff;
+	font-size:16px;
+	line-height:32px;
+	background:rgba(255,255,255,0.10);
+	cursor:pointer;
+	border-radius:2px;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;	
+	z-index:5;
+}
+.mobile-menu .navigation li.dropdown .dropdown-btn.open{
+	-webkit-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg);	
+}
+.mobile-menu .navigation li > ul,
+.mobile-menu .navigation li > ul > li > ul{
+	display: none;
+}
+
+.mobile-menu .social-links{
+	position:relative;
+	text-align:center;
+	padding:30px 25px;
+}
+.mobile-menu .social-links li{
+	position:relative;
+	display:inline-block;
+	margin:0px 5px 10px;
+}
+.mobile-menu .social-links li a{
+	position:relative;
+	color:#ffffff;
+	font-size: 20px;
+	line-height:32px;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;	
+}
+.mobile-menu .social-links li a:hover{
+    color: #030e27;    
+}
+
+/* Mobile Language Switcher */
+.mobile-language-switcher {
+    position: relative;
+    padding: 30px 25px 20px;
+    border-top: 1px solid rgba(255,255,255,0.10);
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.mobile-language-switcher .inner-title {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.mobile-language-switcher .inner-title h5 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mobile-lang-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.mobile-lang-btn {
+    flex: 1;
+    min-width: 100px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.30);
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.mobile-lang-btn:hover {
+    background: rgba(255,255,255,0.10);
+    border-color: rgba(255,255,255,0.50);
+}
+
+.mobile-lang-btn.active {
+    background: #ffffff;
+    color: #030e27;
+    border-color: #ffffff;
+}
+
+.mobile-lang-btn span {
+    display: block;
+}
+
+
+/* ==========================================
+   RESPONSIVE RTL ADJUSTMENTS
+   Keep same layout as English on all devices
+   ========================================== */
+
+/* Ensure mobile nav toggler displays on mobile devices in RTL - Match English Layout */
+@media only screen and (max-width: 991px) {
+
+    /* Header Upper - Match English Layout */
+    .rtl .header-upper {
+        direction: ltr;
+    }
+
+    .rtl .header-upper-left {
+        position: absolute !important;
+        top: 0 !important;
+        left: 10px !important;
+        bottom: 0 !important;
+        height: 90px !important;
+        padding: 10px 0 !important;
+        z-index: 10 !important;
+        float: none !important;
+        right: auto !important;
+    }
+
+    .rtl .header-upper-left:before {
+        top: 0 !important;
+        left: -5000px !important;
+        bottom: 0 !important;
+        right: -20px !important;
+    }
+
+    .rtl .header-upper-right {
+        display: none !important;
+    }
+
+    /* Header Lawer - Match English Layout */
+    .rtl .header-lawer {
+        margin-top: 0 !important;
+    }
+
+    .rtl .header-lawer .outer-box:before {
+        display: none !important;
+    }
+
+    .rtl .header-lawer-left {
+        float: none !important;
+        right: auto !important;
+        position: relative !important;
+    }
+
+    .rtl .header-lawer-left .nav-outer {
+        display: block !important;
+        float: none !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .rtl .header-lawer-right {
+        display: none !important;
+    }
+
+    /* Mobile Nav Toggler - Match English Layout (right side) */
+    .rtl .nav-outer .mobile-nav-toggler,
+    .rtl .header-lawer-left .nav-outer .mobile-nav-toggler,
+    .rtl .nav-outer.style1 .mobile-nav-toggler,
+    .rtl .header-lawer-left .nav-outer.style1 .mobile-nav-toggler {
+        display: block !important;
+        float: right !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: relative !important;
+        padding: 25px 0 !important;
+        cursor: pointer !important;
+        z-index: 1000 !important;
+        pointer-events: auto !important;
+    }
+    
+    .rtl .nav-outer .mobile-nav-toggler .inner,
+    .rtl .header-lawer-left .nav-outer .mobile-nav-toggler .inner,
+    .rtl .nav-outer.style1 .mobile-nav-toggler .inner {
+        background: #222222 !important;
+        position: relative;
+        display: block !important;
+        padding: 3px 5px;
+        pointer-events: auto !important;
+        cursor: pointer !important;
+    }
+    
+    .rtl .mobile-nav-toggler .icon-bar {
+        position: relative;
+        display: block;
+        background: #ffffff;
+        height: 2px;
+        width: 30px;
+        margin: 7px 5px;
+        pointer-events: none;
+    }
+}
+
+/* Mobile Layout: max-width 767px */
+@media only screen and (max-width: 767px) {
+
+    /* Ensure mobile nav toggler is visible in RTL - Match English Layout (right side) */
+    .rtl .nav-outer .mobile-nav-toggler,
+    .rtl .header-lawer-left .nav-outer .mobile-nav-toggler,
+    .rtl .nav-outer.style1 .mobile-nav-toggler,
+    .rtl .header-lawer-left .nav-outer.style1 .mobile-nav-toggler {
+        display: block !important;
+        float: right !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: relative !important;
+        padding: 25px 0 !important;
+        cursor: pointer !important;
+        z-index: 1000 !important;
+        pointer-events: auto !important;
+    }
+    
+    .rtl .nav-outer .mobile-nav-toggler .inner,
+    .rtl .header-lawer-left .nav-outer .mobile-nav-toggler .inner,
+    .rtl .nav-outer.style1 .mobile-nav-toggler .inner {
+        background: #222222 !important;
+        position: relative;
+        display: block !important;
+        padding: 3px 5px;
+        pointer-events: auto !important;
+        cursor: pointer !important;
+    }
+    
+    .rtl .mobile-nav-toggler .icon-bar {
+        position: relative;
+        display: block;
+        background: #ffffff;
+        height: 2px;
+        width: 30px;
+        margin: 7px 5px;
+        pointer-events: none;
+    }
+
+    /* General RTL Reset for Mobile */
+    .rtl .header-contact-info ul li {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+
+    .rtl .navigation>li {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .rtl .language-switcher-btn {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    /* Header Mobile RTL - Match English Layout */
+    .rtl .header-upper {
+        direction: ltr !important;
+    }
+
+    .rtl .header-upper-left {
+        position: absolute !important;
+        top: 0 !important;
+        left: 10px !important;
+        bottom: 0 !important;
+        height: 90px !important;
+        padding: 10px 0 !important;
+        z-index: 10 !important;
+        float: none !important;
+        right: auto !important;
+    }
+
+    .rtl .header-upper-left:before {
+        top: 0 !important;
+        left: -5000px !important;
+        bottom: 0 !important;
+        right: -20px !important;
+    }
+
+    .rtl .header-upper-right {
+        display: none !important;
+    }
+
+    .rtl .header-lawer {
+        margin-top: 0 !important;
+    }
+
+    .rtl .header-lawer .outer-box:before {
+        display: none !important;
+    }
+
+    .rtl .header-lawer-left {
+        float: none !important;
+        right: auto !important;
+        position: relative !important;
+    }
+
+    .rtl .header-lawer-left .nav-outer {
+        display: block !important;
+        float: none !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .rtl .header-lawer-right {
+        display: none !important;
+    }
+
+    /* Navigation Mobile */
+    .rtl .main-menu .navigation {
+        direction: ltr;
+    }
+
+    .rtl .fact-counter-area .container {
+        position: relative;
+        right: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Mobile Menu RTL - Already defined above, but ensure proper positioning */
+    .rtl .mobile-menu .navigation {
+        direction: rtl;
+        text-align: right;
+        display: block !important;
+        width: 100% !important;
+        float: none !important;
+    }
+
+    .rtl .mobile-menu .navigation > li {
+        display: block !important;
+        width: 100% !important;
+        float: none !important;
+        clear: both !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .rtl .mobile-menu .navigation li>a {
+        text-align: right;
+        padding-right: 25px;
+        padding-left: 50px;
+        display: block !important;
+        width: 100% !important;
+        float: none !important;
+    }
+
+    .rtl .mobile-menu .navigation li ul li>a {
+        margin-left: 0;
+        margin-right: 20px;
+        text-align: right;
+    }
+
+    .rtl .mobile-menu .navigation li.dropdown .dropdown-btn {
+        right: auto;
+        left: 6px;
+    }
+
+    .rtl .mobile-menu .nav-logo {
+        text-align: right;
+        display: block !important;
+    }
+
+    .rtl .mobile-menu .menu-outer {
+        display: block !important;
+    }
+
+    .rtl .mobile-menu .navigation {
+        display: block !important;
+    }
+
+    .rtl .mobile-menu .mobile-language-switcher {
+        display: block !important;
+    }
+
+    .rtl .mobile-menu .social-links {
+        display: block !important;
+    }
+
+    .rtl .mobile-lang-btn {
+        display: block !important;
+    }
+
+    /* About Section Mobile */
+    .rtl .about-style1-area {
+        direction: ltr;
+    }
+
+    .rtl .about-style1-image-box {
+        float: none !important;
+        right: auto !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .rtl .about-style1-text-box {
+        text-align: left;
+        direction: ltr;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .rtl .about-style1-text-box .inner-contant {
+        text-align: left;
+    }
+
+    .rtl .about-style1-text-box .inner-contant ul li {
+        text-align: left;
+    }
+
+    /* Projects Mobile - Keep LTR */
+    .rtl .latest-project-style1-area {
+        direction: ltr;
+    }
+
+    .rtl .project-tabs {
+        direction: ltr;
+    }
+
+    .rtl .project-tabs .tab-button-column {
+        text-align: left;
+    }
+
+    .rtl .project-tabs .tab-buttons {
+        float: left;
+        width: 300px;
+    }
+
+    .rtl .project-tabs .tab-buttons .tab-btn {
+        float: left !important;
+        margin-right: 20px !important;
+        margin-left: 0 !important;
+        margin-bottom: 10px;
+    }
+
+    .rtl .single-project-style1-content {
+        text-align: left;
+        direction: ltr;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .rtl .project-slider {
+        float: none;
+        direction: ltr;
+    }
+
+    .rtl .latest-project-style1-area .row {
+        direction: ltr;
+    }
+
+    .rtl .latest-project-style1-area .row .col-lg-6 {
+        float: none !important;
+    }
+
+    /* Testimonials Mobile - Keep LTR */
+    .rtl .testimonial-style1-area {
+        direction: ltr;
+    }
+
+    .rtl .testimonial-style1-area .layer-outer {
+        direction: ltr;
+    }
+
+    .rtl .testimonial-style1-area .left-box {
+        float: left;
+    }
+
+    .rtl .testimonial-style1-area .right-box {
+        float: right;
+    }
+
+    .rtl .testimonial-outer-box {
+        direction: ltr;
+        text-align: left;
+        padding: 30px 20px 40px;
+    }
+
+    .rtl .single-testimonial-style1 {
+        text-align: left;
+        direction: ltr;
+    }
+
+    .rtl .single-testimonial-style1 .top {
+        padding-left: 120px;
+        padding-right: 0;
+    }
+
+    .rtl .single-testimonial-style1 .top .img-box {
+        left: 0;
+        right: auto;
+        width: 100px;
+        height: 100px;
+    }
+
+    .rtl .testimonial-style1-area .client-info {
+        text-align: left;
+        position: relative;
+        top: 1rem;
+    }
+
+    .rtl .single-testimonial-style1 .text-box {
+        text-align: left;
+    }
+
+    .rtl .testimonial-carousel {
+        direction: ltr;
+    }
+
+    /* Services Mobile */
+    .rtl .services-style1-area {
+        direction: ltr;
+    }
+
+    .rtl .single-service-style1 {
+        text-align: left;
+        direction: ltr;
+    }
+
+    .rtl .service-carousel {
+        direction: ltr;
+    }
+
+    /* Fact Counter Mobile */
+    .rtl .fact-counter-area {
+        direction: ltr;
+    }
+
+    .rtl .fact-counter-area .row {
+        right: auto !important;
+        position: relative;
+    }
+
+    .rtl .single-fact-counter {
+        text-align: center;
+    }
+
+    /* Footer Mobile */
+    .rtl .footer .row>div {
+        text-align: left;
+        direction: ltr;
+    }
+
+    .rtl .single-footer-widget {
+        text-align: left;
+    }
+
+    .rtl .single-footer-widget .text {
+        text-align: left;
+    }
+
+    .rtl .footer-social-links {
+        text-align: left;
+    }
+
+    .rtl .footer-social-links .social-links ul {
+        float: left;
+        text-align: left;
+    }
+
+    .rtl .services-links {
+        text-align: left;
+    }
+
+    .rtl .services-links li {
+        text-align: left;
+    }
+
+    /* Slider Mobile */
+    .rtl .main-slider {
+        direction: ltr;
+    }
+
+    .rtl .main-slider .content {
+        direction: ltr;
+        text-align: left;
+    }
+
+    .rtl .main-slider .content.pull-right {
+        text-align: left;
+        float: none;
+    }
+
+    .rtl .main-slider .btns-box {
+        text-align: left;
+    }
+}
+
+/* Tablet Layout: 768px to 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* Projects Tablet - Keep LTR */
+    .rtl .latest-project-style1-area {
+        direction: ltr;
+    }
+
+    .rtl .project-tabs {
+        direction: ltr;
+    }
+
+    .rtl .project-tabs .tab-button-column {
+        text-align: left;
+    }
+
+    .rtl .project-tabs .tab-buttons {
+        float: left;
+    }
+
+    .rtl .project-tabs .tab-buttons .tab-btn {
+        float: left !important;
+        margin-right: 20px !important;
+        margin-left: 0 !important;
+    }
+
+    .rtl .single-project-style1-content {
+        text-align: left;
+        direction: ltr;
+        padding-right: 30px !important;
+        padding-left: 0 !important;
+    }
+
+    .rtl .project-slider {
+        float: none;
+        direction: ltr;
+    }
+
+    .rtl .latest-project-style1-area .row {
+        direction: ltr;
+    }
+
+    /* Testimonials Tablet - Keep LTR */
+    .rtl .testimonial-style1-area {
+        direction: ltr;
+    }
+
+    .rtl .testimonial-style1-area .layer-outer {
+        direction: ltr;
+    }
+
+    .rtl .testimonial-style1-area .left-box {
+        float: left;
+    }
+
+    .rtl .testimonial-style1-area .right-box {
+        float: right;
+    }
+
+    .rtl .testimonial-outer-box {
+        direction: ltr;
+        text-align: left;
+    }
+
+    .rtl .single-testimonial-style1 {
+        text-align: left;
+        direction: ltr;
+    }
+
+    .rtl .testimonial-style1-area .client-info {
+        text-align: left;
+    }
+
+    .rtl .single-testimonial-style1 .text-box {
+        text-align: left;
+    }
+
+    /* About Tablet */
+    .rtl .about-style1-area {
+        direction: ltr;
+    }
+
+    .rtl .about-style1-image-box {
+        float: none !important;
+        right: auto !important;
+        padding-right: 70px !important;
+        padding-left: 0 !important;
+    }
+
+    .rtl .about-style1-text-box {
+        text-align: left;
+        direction: ltr;
+        padding-right: 50px !important;
+        padding-left: 0 !important;
+    }
+}
+
+/* Medium Screen: 992px to 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* Projects Medium - Keep LTR */
+    .rtl .latest-project-style1-area {
+        direction: ltr;
+    }
+
+    .rtl .project-tabs {
+        direction: ltr;
+    }
+
+    .rtl .project-tabs .tab-button-column {
+        text-align: left;
+    }
+
+    .rtl .project-tabs .tab-buttons {
+        float: left;
+    }
+
+    .rtl .project-tabs .tab-buttons .tab-btn {
+        float: left !important;
+        margin-right: 20px !important;
+        margin-left: 0 !important;
+    }
+
+    .rtl .single-project-style1-content {
+        text-align: left;
+        direction: ltr;
+        padding-right: 50px !important;
+        padding-left: 0 !important;
+    }
+
+    .rtl .project-slider {
+        float: none;
+        direction: ltr;
+    }
+
+    /* Testimonials Medium - Keep LTR */
+    .rtl .testimonial-style1-area {
+        direction: ltr;
+    }
+
+    .rtl .testimonial-style1-area .layer-outer {
+        direction: ltr;
+    }
+
+    .rtl .testimonial-style1-area .left-box {
+        float: left;
+    }
+
+    .rtl .testimonial-style1-area .right-box {
+        float: right;
+    }
+
+    .rtl .testimonial-outer-box {
+        direction: ltr;
+        text-align: left;
+    }
+
+    .rtl .single-testimonial-style1 {
+        text-align: left;
+        direction: ltr;
+    }
+
+    .rtl .testimonial-style1-area .client-info {
+        text-align: left;
+    }
+
+    .rtl .single-testimonial-style1 .text-box {
+        text-align: left;
+    }
+
+    /* About Medium */
+    .rtl .about-style1-image-box {
+        right: auto !important;
+        padding-right: 70px !important;
+        padding-left: 0 !important;
+    }
+
+    .rtl .about-style1-text-box {
+        text-align: left;
+        direction: ltr;
+        padding-right: 100px !important;
+        padding-left: 0 !important;
+    }
+
+    /* Fact Counter Medium */
+    .rtl .fact-counter-area .row {
+        right: auto !important;
+        position: relative;
+    }
+}
+
+/* Small Mobile: max-width 499px */
+@media only screen and (max-width: 499px) {
+
+    /* Projects Small Mobile */
+    .rtl .project-tabs .tab-buttons {
+        width: auto;
+        float: left;
+    }
+
+    .rtl .project-tabs .tab-buttons .tab-btn {
+        float: left !important;
+        margin-right: 15px !important;
+        margin-left: 0 !important;
+        font-size: 14px;
+    }
+
+    /* Testimonials Small Mobile */
+    .rtl .testimonial-outer-box {
+        padding: 20px 15px 30px;
+    }
+
+    .rtl .single-testimonial-style1 .top {
+        padding-left: 100px;
+    }
+
+    .rtl .single-testimonial-style1 .top .img-box {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* Medium Mobile: 500px to 767px */
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+
+    /* Projects Medium Mobile */
+    .rtl .project-tabs .tab-buttons {
+        width: auto;
+        float: left;
+    }
+
+    .rtl .project-tabs .tab-buttons .tab-btn {
+        float: left !important;
+        margin-right: 20px !important;
+        margin-left: 0 !important;
+    }
+}

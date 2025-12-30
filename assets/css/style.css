@@ -1538,6 +1538,66 @@ select:focus {
     color: #030e27;    
 }
 
+/* Mobile Language Switcher */
+.mobile-language-switcher {
+    position: relative;
+    padding: 30px 25px 20px;
+    border-top: 1px solid rgba(255,255,255,0.10);
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.mobile-language-switcher .inner-title {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.mobile-language-switcher .inner-title h5 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mobile-lang-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.mobile-lang-btn {
+    flex: 1;
+    min-width: 100px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.30);
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.mobile-lang-btn:hover {
+    background: rgba(255,255,255,0.10);
+    border-color: rgba(255,255,255,0.50);
+}
+
+.mobile-lang-btn.active {
+    background: #ffffff;
+    color: #030e27;
+    border-color: #ffffff;
+}
+
+.mobile-lang-btn span {
+    display: block;
+}
+
 
 
 

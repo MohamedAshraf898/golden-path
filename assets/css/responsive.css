@@ -511,6 +511,9 @@
     margin-right: 0;
     padding-right: 0px;
 }    
+.lang-btn {
+    display: none !important;
+}
     
 /*** Fact Counter Area Css ***/      
 .fact-counter-area .wheel img {
@@ -921,7 +924,9 @@
     display: none;
 }    
     
-    
+.language-switcher-btn .lang-btn {
+    display: none;
+}
 .owl-carousel.owl-dot-style1 .owl-dots .owl-dot {
     margin: 5px 5px 0;
 }     
